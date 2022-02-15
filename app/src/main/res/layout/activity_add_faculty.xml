@@ -46,12 +46,14 @@
     <TextView
         android:text="Mobile Number"
         android:layout_margin="10dp"
+
         android:textSize="15dp"
         android:textColor="@color/black"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/number"
+        android:inputType="number"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
